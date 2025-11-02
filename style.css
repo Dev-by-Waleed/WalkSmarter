@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: Righteous;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+@font-face {
+    font-family: Righteous;
+    src: url(./assets/font/Righteous-Regular.ttf);
+}
+Header {
+    height: 100vh;
+    background-image: url(./assets/images/bg-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: none;
+}
+nav {
+    width: 100%;
+    position: sticky !important;
+    top: 0;
+    left: 0 !important;
+    z-index: 99;
+}
+
+form .form-control {
+    background-color: transparent;
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
+.fa-person-walking-arrow-right {
+    color: white;
+}
+.fa-magnifying-glass {
+    color: white;
+    align-self: center;
+}
+form .form-control {
+    visibility: hidden !important;
+    transform: translateX(20%);
+    transition: all 0.3s ease;
+    opacity: 0;
+    width: 20px;
+}
+.navbar form:hover .form-control  {
+    visibility: visible !important;
+    transform: translateX(0);
+    opacity: 1;
+    width: 200px
+    
+}
+.navbar form .btn {
+    visibility: hidden !important;
+}
+.navbar form:hover .btn  {
+    visibility: visible !important;
+}
+.navbar .nav-link {
+    font-size: 1.5rem;
+    color: white !important;
+}
+.navbar .nav-item .nav-link:hover {
+    font-size: 1.5rem;
+    color: black !important;
+}
+.navbar button {
+    font-size: 1.2rem;
+}
+.hero{
+    width: 100%;
+    position: absolute;
+    top: 20rem;
+    color: white;
+}
+
+Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+ }
+.hero-2 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url(./assets/images/stride\ together.png);
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+.hero-2 .container-fluid {
+    --bs-bg-opacity: .5;
+}
+.hero-3 {
+    height: 100vh;
+    width: 100%;  
+}
+
+.hero-3 .bg-responsive {
+    background-image: url(./assets/images/left.png);
+    background-size: cover;
+    background-position: center;
+}
+.hero-3 .box {
+    background-color: rgb(12.55% 12.55% 12.55%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.current-calculation {
+    height: 50vh;
+    width: 100%;
+}
+.current-calculation .row {
+    align-items: center;
+}
+Footer .nav-link:hover {
+    color: black !important;
+}
+/* <!-- login-page --> */
+Header .login-form {
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+
