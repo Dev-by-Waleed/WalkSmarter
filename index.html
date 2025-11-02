@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WalkSmarter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+    <Header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#"><i class="fa-solid fa-person-walking-arrow-right"></i></a>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active px-5" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active px-5" href="./sign-up.html">Events</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-black" type="submit">Search</button>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </form>
+                </div>
+                <div class="buttons collapse navbar-collapse z-3" id="navbarSupportedContent">
+                    <button type="button" class="btn"><a class="mx-4" href="./login.html">Login</a></button>
+                    <button type="button" class="btn bg-black text-white"> <a class="mx-3" class=""
+                            href="./sign-up.html">Sign
+                            up</a></button>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-sm-4 col-0"></div>
+                    <div class="col-lg-4 col-sm-8 col-12" id="hero-content">
+                        <h1>Walk Smarter</h1>
+                        <p>Take your next step toward a healthier, more active life.
+                            Track your walks, stay motivated, and explore routes made by walkers near you.</p>
+                        <button type="button" class="btn bg-black text-white"><a href="./sign-up.html">Get
+                                Started</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Header>
+    <Main class="pt-1">
+        <section class="hero-2">
+            <div class="container-fluid text-center bg-black p-5" id="hero-content-2">
+                <h1>Stride Together, Shape Tomorrow.</h1>
+                <p>Every step counts. Join our walking events, support local causes, and inspire others to move.
+                    Together, we’re building stronger, healthier communities.</p>
+                <button type="button" class="btn bg-white text-black"><a href="./sign-up.html">Join the
+                        Event</a></button>
+            </div>
+        </section>
+        <section class="hero-3 container" id="hero-3-content">
+            <div class="row h-100 text-white">
+                <div class="col-12 col-md-6 p-3" id="box-1">
+                    <div class="box h-100 px-5 bg-responsive text-center rounded-5 ">
+                        <h1 class="display-1">30K Raised</h1>
+                        <p class="lead">Thanks to the generosity of our community.</p>
+                        <button type="button" class="btn bg-white text-black"><a href="./sign-up.html">Learn
+                                More</a></button>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-6 p-3" id="box-2">
+                    <div class="box h-100 px-5 text-center rounded-5">
+                        <h1 class="display-1">Don’t Miss a Step</h1>
+                        <p class="lead">Get the latest updates and details about the event.</p>
+                        <button type="button" class="btn bg-white text-black"><a href="./sign-up.html">Stay
+                                Updated</a></button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="current-calculation container px-4 h-100">
+            <div class="row bg-black text-white rounded-5 py-5">
+                <div class="col-sm-4 col-12 text-center" id="cal-childs">
+                    <p>Miles Logged</p>
+                    <h1>9.42</h1>
+                    <p>Billion</p>
+                </div>
+                <div class="col-sm-4 col-12 text-center" id="cal-childs">
+                    <p>Routes Created</p>
+                    <h1>1.85</h1>
+                    <p>Billion</p>
+                </div>
+                <div class="col-sm-4 col-12 text-center" id="cal-childs">
+                    <p>Workouts Logged</p>
+                    <h1>2.44</h1>
+                    <p>Billion</p>
+                </div>
+            </div>
+        </section>
+    </Main>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top px-2">
+        <p class="col-md-4 mb-0 text-body-secondary">© 2025 Made By Waleed Ahmad</p>
+        <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="./sign-up.html" class="nav-link px-2 text-body-secondary">Events </a></li>
+            <li class="nav-item"><a href="./sign-up.html" class="nav-link px-2 text-body-secondary">Challenges</a></li>
+            <li class="nav-item"><a href="./sign-up.html" class="nav-link px-2 text-body-secondary">Contact </a></li>
+            <li class="nav-item"><a href="./sign-up.html" class="nav-link px-2 text-body-secondary">About</a></li>
+        </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="./assets/gsap/gsap.min.js"></script>
+    <script src="./assets/gsap/ScrollTrigger.min.js"></script>
+    <script>
+        gsap.from(".navbar", {
+            y: -100,
+            opacity: 0,
+            duration: 1.5,
+
+        });
+
+        gsap.from("#hero-content", {
+            scrollTrigger: {
+                trigger: ".hero",
+                toggleActions: "restart none none none",
+
+
+
+            },
+            x: 100,
+            opacity: 0,
+            duration: 1.5,
+        });
+        gsap.from("#hero-content-2", {
+            scrollTrigger: {
+                trigger: "#hero-2-content",
+                toggleActions: "restart none none none",
+            },
+            y: 100,
+            opacity: 0,
+            duration: 1.5,
+        });
+        gsap.from("#box-1", {
+            scrollTrigger: {
+                trigger: "#hero-3-content",
+                toggleActions: "restart none none none",
+            },
+            x: -100,
+            opacity: 0,
+            duration: 1.5,
+        });
+        gsap.from('#box-2', {
+            scrollTrigger: {
+                trigger: "#hero-3-content",
+                toggleActions: "restart none none none",
+            },
+            x: 100,
+            opacity: 0,
+            duration: 1.5,
+        });
+        gsap.from('#cal-childs', {
+            scrollTrigger: {
+                trigger: ".current-calculation",
+                toggleActions: "restart none none none",
+            },
+            y: 100,
+            opacity: 0,
+            duration: 1.5,
+        });
+    </script>
+</body>
+
+</html>
