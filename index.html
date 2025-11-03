@@ -45,19 +45,15 @@
                 </button>
             </div>
         </nav>
-        <div class="hero">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-sm-4 col-0"></div>
-                    <div class="col-lg-4 col-sm-8 col-12" id="hero-content">
-                        <h1>Walk Smarter</h1>
-                        <p>Take your next step toward a healthier, more active life.
-                            Track your walks, stay motivated, and explore routes made by walkers near you.</p>
-                        <button type="button" class="btn bg-black text-white"><a href="./sign-up.html">Get
-                                Started</a></button>
-                    </div>
-                </div>
-            </div>
+        <section class="hero container row">
+            <div class="col-lg-8 col-sm-4 col-0"></div>
+            <div class="col-lg-4 col-sm-8 col-12" id="hero-content">
+                <h1>Walk Smarter</h1>
+                <p>Take your next step toward a healthier, more active life.
+                    Track your walks, stay motivated, and explore routes made by walkers near you.</p>
+                <button type="button" class="btn bg-black text-white"><a href="./sign-up.html">Get
+                        Started</a></button>
+                </section>
         </div>
     </Header>
     <Main class="pt-1">
@@ -79,7 +75,6 @@
                         <button type="button" class="btn bg-white text-black"><a href="./sign-up.html">Learn
                                 More</a></button>
                     </div>
-
                 </div>
                 <div class="col-12 col-md-6 p-3" id="box-2">
                     <div class="box h-100 px-5 text-center rounded-5">
@@ -88,7 +83,6 @@
                         <button type="button" class="btn bg-white text-black"><a href="./sign-up.html">Stay
                                 Updated</a></button>
                     </div>
-
                 </div>
             </div>
         </section>
@@ -134,14 +128,10 @@
             duration: 1.5,
 
         });
-
         gsap.from("#hero-content", {
             scrollTrigger: {
                 trigger: ".hero",
                 toggleActions: "restart none none none",
-
-
-
             },
             x: 100,
             opacity: 0,
@@ -173,6 +163,7 @@
             x: 100,
             opacity: 0,
             duration: 1.5,
+
         });
         gsap.from('#cal-childs', {
             scrollTrigger: {
