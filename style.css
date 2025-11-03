@@ -145,9 +145,9 @@ Header .login-form {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) !important;
-    
-    /* display: grid;
+
 }
 Header .login-form #login-animation {
     box-shadow: 0 0 20px lightslategray;
 }
+
